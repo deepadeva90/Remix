@@ -6,5 +6,13 @@
         "file": ".git/simple calc.sol"
       }
     }
+  },
+  ".git/types var.sol": {
+    "__sources__": {
+      ".git/types var.sol": {
+        "content": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.0;\r\n\r\ncontract VariableTypes {\r\n\r\n    // -----------------------------\r\n    // STATE VARIABLES\r\n    // Stored permanently on blockchain\r\n    // -----------------------------\r\n    uint public stateNumber = 100;\r\n    address public owner = msg.sender;\r\n\r\n    // -----------------------------\r\n    // FUNCTION TO DEMONSTRATE VARIABLES\r\n    // -----------------------------\r\n    function showVariables(uint _input) public view returns (\r\n        uint localNumber,\r\n        uint stateValue,\r\n        address globalSender,\r\n        uint globalTimestamp\r\n    ) {\r\n\r\n        // -----------------------------\r\n        // LOCAL VARIABLE\r\n        // Exists only inside this function\r\n        // -----------------------------\r\n        uint temp = _input + 10;\r\n\r\n        // -----------------------------\r\n        // GLOBAL VARIABLES\r\n        // Provided by blockchain\r\n        // -----------------------------\r\n        address sender = msg.sender;\r\n        uint time = block.timestamp;\r\n\r\n        return (\r\n            temp,              // local variable\r\n            stateNumber,       // state variable\r\n            sender,            // global variable\r\n            time\r\n                           // global variable\r\n        );\r\n    }\r\n}",
+        "file": ".git/types var.sol"
+      }
+    }
   }
 }

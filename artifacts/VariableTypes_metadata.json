@@ -1,0 +1,106 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_input",
+						"type": "uint256"
+					}
+				],
+				"name": "showVariables",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "localNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "stateValue",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "globalSender",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "globalTimestamp",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "stateNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".git/types var.sol": "VariableTypes"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".git/types var.sol": {
+			"keccak256": "0x6bb107bbdb59839cb1ff5f41cdd7e26ffc5971a73c065fde99314f2c3ae45bbe",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a14e6021fcd43b7737b998210a151824d609cf9602aa0b203f733cb462676860",
+				"dweb:/ipfs/QmYp4rcWA1QtsswVLPrdhrpugLprZaNHD1iPAr5adY5CwH"
+			]
+		}
+	},
+	"version": 1
+}
