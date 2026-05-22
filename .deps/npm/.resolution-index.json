@@ -1,0 +1,10 @@
+{
+  ".git/simple calc.sol": {
+    "__sources__": {
+      ".git/simple calc.sol": {
+        "content": "pragma solidity ^0.8.0;\r\n\r\ncontract MyContract1{\r\n\r\n    int16 public num1 = 200;\r\n\r\n    int16 public num2=-200;\r\n\r\n    int16 public num3=num1-num2;\r\n\r\n    }",
+        "file": ".git/simple calc.sol"
+      }
+    }
+  }
+}
